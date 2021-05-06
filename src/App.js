@@ -351,9 +351,10 @@ class Game extends React.Component {
 async function getQuestions() {
   questions = [];
 
+  //alert("hey");
   for (let i = 0; i < 10; i++) {
 
-    const url = 'http://api.opentripmap.com/0.1/en/places/bbox?lon_min=-79&lat_min=35.7&lon_max=-78.4&lat_max=36&format=geojson&apikey=5ae2e3f221c38a28845f05b6deb6509bf9aeb18ce2d3929402dc4f14';
+    const url = '//api.opentripmap.com/0.1/en/places/bbox?lon_min=-79&lat_min=35.7&lon_max=-78.4&lat_max=36&format=geojson&apikey=5ae2e3f221c38a28845f05b6deb6509bf9aeb18ce2d3929402dc4f14';
     //alert(url);
     let features;
     const result = await axios({
@@ -370,7 +371,7 @@ async function getQuestions() {
 
   }
 
-  // alert(JSON.stringify(questions));
+  //alert(JSON.stringify(questions));
   // alert(questions.length);
 }
 
