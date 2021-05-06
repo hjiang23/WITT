@@ -132,15 +132,37 @@ class Leaderboard extends React.Component {
       scoresarray.push(highscores[x]);
     }
 
-    if (this.props.score > highscore) {
+    let isIn = false;
+    for (let i = 0; i < scoresarray.length; i++) {
+      if (scoresarray[i].name === user.displayName) {
+        isIn = true;
+      }
+    }
+    if (!isIn) {
+      scoresarray.push({ name: user.displayName, highscore: this.props.score });
       highscore = this.props.score;
       writeHighScore(this.props.score);
-      for (let i = 0; i < scoresarray.length; i++) {
-        if (scoresarray[i].name === user.displayName) {
+    }
+
+    for (let i = 0; i < scoresarray.length; i++) {
+      if (scoresarray[i].name === user.displayName) {
+        if (this.props.score > scoresarray[i].highscore) {
+          highscore = this.props.score;
+          writeHighScore(this.props.score);
           scoresarray[i].highscore = this.props.score;
         }
       }
     }
+
+    // if (this.props.score > highscore) {
+    //   highscore = this.props.score;
+    //   writeHighScore(this.props.score);
+    //   for (let i = 0; i < scoresarray.length; i++) {
+    //     if (scoresarray[i].name === user.displayName) {
+    //       scoresarray[i].highscore = this.props.score;
+    //     }
+    //   }
+    // }
 
     scoresarray.sort(function (a, b) {
       return b.highscore - a.highscore;
@@ -176,6 +198,7 @@ class Leaderboard extends React.Component {
       );
     }
     else {
+      initializeScores();
       return (
         <Loading />
       );
@@ -429,6 +452,7 @@ class Home extends React.Component {
       );
     }
     else {
+      initializeScores();
       return (
         <Loading />
       );
