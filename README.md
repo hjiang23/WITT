@@ -10,7 +10,7 @@ https://hjiang23.github.io/WITT/
 
 ## Stuff I Used
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Login/database made with [Firebase](https://firebase.google.com/).
-Maps loaded with [Google Maps API](https://developers.google.com/maps).
-Places generated with [OpenTripMap API](https://opentripmap.io/product).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+Login/database made with [Firebase](https://firebase.google.com/).  
+Maps loaded with [Google Maps API](https://developers.google.com/maps).  
+Places generated with [OpenTripMap API](https://opentripmap.io/product).  
