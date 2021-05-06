@@ -1,21 +1,34 @@
 {
+  "homepage": "http://hjiang23.github.io/WITT",
   "name": "trivia",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.14.0",
+    "@material-ui/core": "^4.11.4",
+    "@react-google-maps/api": "^2.1.1",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "firebase": "^8.4.3",
+    "firebaseui": "^4.8.0",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
+    "react-countdown-circle-timer": "^2.5.2",
     "react-dom": "^17.0.2",
+    "react-fade-in": "^2.0.1",
     "react-scripts": "4.0.3",
+    "typescript": "^4.2.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +47,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.13.13",
+    "gh-pages": "^3.1.0"
   }
 }

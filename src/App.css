@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+
+#welcomepage {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#welcomepage a {
+  color: #61dafb;
+}
+
+#welcomepage #hey {
+  position:relative; 
+  top: 40px;
+}
+
+#welcomepage .firebaseui-tospp-full-message {
+  font-size: small;
+  opacity: 0%;
+  cursor: default;
+}
+
+#welcomepage .firebaseui-tos-link {
+  opacity: 0%;
+  cursor: default;
+}
+
+#welcomepage .firebaseui-pp-link {
+  opacity: 0%;
+  cursor: default;
+}
+
+#welcomepage li {
+  list-style-type: none;
+}
+
+.welcome {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.welcome p{
+  margin:10px;
+}
+
+.welcome #specialp {
+  padding-bottom: 2%;
+}
+
+#loading {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.time {
+  font-size: 64px;
+}
+
+.time-wrapper {
+  color: #FFFFFF;
+}
+
+.off {
+  opacity: 0%;
+  transition: .1s linear;
+}
+
+.on {
+  transition: .1s linear;
+}
+
+#game {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.gametimer {
+  padding-top: 50px;
+}
+
+#whodat {
+  margin-bottom:0%;
+}
+
+#leaderboard{
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+#leaderboard h3 {
+  margin-top: 0px;
+}
+
+#leaderboard #specialdiv {
+  padding-bottom: 5%;
+}
+
+#about {
+  font-size: large;
+}
