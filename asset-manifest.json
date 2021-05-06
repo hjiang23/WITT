@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/WITT/static/css/main.03f3c73e.chunk.css",
+    "main.js": "/WITT/static/js/main.a1881972.chunk.js",
+    "main.js.map": "/WITT/static/js/main.a1881972.chunk.js.map",
+    "runtime-main.js": "/WITT/static/js/runtime-main.76b7f5c7.js",
+    "runtime-main.js.map": "/WITT/static/js/runtime-main.76b7f5c7.js.map",
+    "static/js/2.6017f9e5.chunk.js": "/WITT/static/js/2.6017f9e5.chunk.js",
+    "static/js/2.6017f9e5.chunk.js.map": "/WITT/static/js/2.6017f9e5.chunk.js.map",
+    "static/js/3.009f8fe5.chunk.js": "/WITT/static/js/3.009f8fe5.chunk.js",
+    "static/js/3.009f8fe5.chunk.js.map": "/WITT/static/js/3.009f8fe5.chunk.js.map",
+    "index.html": "/WITT/index.html",
+    "static/css/main.03f3c73e.chunk.css.map": "/WITT/static/css/main.03f3c73e.chunk.css.map",
+    "static/js/2.6017f9e5.chunk.js.LICENSE.txt": "/WITT/static/js/2.6017f9e5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.76b7f5c7.js",
+    "static/js/2.6017f9e5.chunk.js",
+    "static/css/main.03f3c73e.chunk.css",
+    "static/js/main.a1881972.chunk.js"
+  ]
+}
